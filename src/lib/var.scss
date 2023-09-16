@@ -1,10 +1,13 @@
 $colorMap: (
-    light: #ddd,
+	light: #ddd,
 	button: #3326e9,
-	text_button: white,
+	words_button: white,
 	danger: red,
+	gray: gray,
+	dark: black,
+	main: rgb(119, 148, 187),
 );
 
 @function color ($key) {
-    @return map-get($colorMap, $key);
+	@return map-get($colorMap, $key);
 }

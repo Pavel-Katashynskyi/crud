@@ -1,33 +1,38 @@
-.main {
+.card {
   display: flex;
   padding: 16px;
-  gap: 32px;
   justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
 }
-.main__alert {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+.card__header {
+  flex-grow: 1;
 }
-.main__button {
-  text-decoration: none;
-  color: white;
-  max-width: 248px;
-  width: 100%;
-  display: inline-block;
-  font-size: 16px;
+.card__button {
+  background-color: blue;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
   padding: 10px 20px;
-  background: #3326e9;
-  border-radius: 4px;
-  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
 }
-.main__button:hover {
-  opacity: 0.7;
+.card__button:hover {
+  background-color: darkblue;
 }
-.main__title {
-  font-size: 18px;
+.card__title {
+  font-size: 24px;
   font-weight: bold;
-  padding-bottom: 4px;
+  margin: 0;
+}
+.card__subtitle {
+  font-size: 18px;
+  margin-top: 8px;
+  color: #666666;
 }
 
 /*# sourceMappingURL=style.css.map */

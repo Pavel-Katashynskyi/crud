@@ -5,7 +5,7 @@
   gap: 32px;
 }
 .form__title {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   padding-bottom: 4px;
   border-bottom: 1px solid #ddd;
@@ -23,6 +23,7 @@
   font-size: 14px;
 }
 .form__input {
+  font-size: 14px;
   border: 1px solid #ddd;
   padding: 8px;
 }
@@ -30,12 +31,18 @@
   border: 1px solid #ddd;
   padding: 8px;
   border-radius: 20px;
-  background-color: #3326e9;
 }
-.form__colums {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.user-list li {
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
